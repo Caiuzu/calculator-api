@@ -276,11 +276,6 @@ as e destinos para os arquivos construídos.
     ```
 
     **Nota**: O comando `vercel --prod` garante que o projeto seja implantado na produção. O deployment via PR pode não refletir corretamente.
-
-### Conclusão da Parte 1
-
-Parabéns! Você configurou uma API simples usando Express e TypeScript e a implantou no Vercel. No próximo tutorial, adicionaremos a documentação Swagger para facilitar a exploração e o teste dos endpoints.
-
 ---
 
 ### Parte 2: Adicionando Documentação Swagger à API com Express e TypeScript
@@ -541,7 +536,3 @@ const options: swaggerUi.SwaggerUiOptions = {
     ```sh
     vercel --prod
     ```
-
-### Conclusão da Parte 2
-
-Com esta refatoração, o código do `index.ts` está mais organizado e modular, facilitando a manutenção e futuras extensões. Adicionamos a documentação Swagger para facilitar a exploração e teste dos endpoints. Agora, a API está devidamente documentada e pronta para ser utilizada.
